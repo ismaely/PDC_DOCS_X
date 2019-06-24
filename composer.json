@@ -1,0 +1,20 @@
+{
+    "autoload":{
+        "psr-4": {
+               "helper\\":"helper/",
+               "juddis\\":"helper/juddis/",
+               "app\\":"app/",
+               "controllers\\":"app/controllers/",
+               "models\\":"app/models/",
+               "pdc_Docs_x\\":"vendor/pdc_Docs_x/",
+               "pdc_Docs_x\\Http\\":"/pdc_Docs_x/Http/",
+               "Routing\\":"vendor/pdc_Docs_x/Routing/",
+               "vendor\\Klein\\":"klein/klein/src/Klein/"
+              
+              
+    }
+ },
+    "require": {
+        "klein/klein": "^2.1"
+    }
+}

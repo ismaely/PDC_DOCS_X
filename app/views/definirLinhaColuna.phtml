@@ -1,0 +1,54 @@
+
+
+
+  <div class="col-md-10" ng-app="pdc_app">
+    <div class="col-md-4 panel">
+    <div class="col-md-12 panel-heading">
+      <h4>Definir o tamanho da Celula</h4>
+    </div>
+    <div class="col-md-12 panel-body" style="padding-bottom:30px;" ng-controller="perfilDefinir">
+      <div class="col-md-12">
+        <form class="cmxform" id="signupForm"  ng-submit="submit()">
+          <div class="col-md-8">
+            <div class="form-group form-animate-text" style="margin-top:40px !important;">
+                <input type="text" class="form-text" id="validate_firstname"  ng-model="def_linha" required>
+              <span class="bar"></span>
+              <label>Digita o Numero de Linha</label>
+            </div>
+
+
+
+            <div class="form-group form-animate-text" style="margin-top:40px !important;">
+                <input type="text" class="form-text" id="validate_username"  ng-model="def_coluna"required>
+              <span class="bar"></span>
+              <label>Digita o NUmero de Coluna</label>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-12">
+
+              <input class="submit btn btn-danger" type="submit" value="Submit">
+        </div>
+           
+      </form>
+                 
+    </div>
+  </div>
+</div>
+    <script src="././bower_components/angular/angular.min.js"></script>
+     <script src="././bower_components/angular-route/angular-route.min.js"></script>
+       <script src="app\app_js\perfiUsaurioController.js"></script>
+</div>
+
+<!-- start: Javascript -->
+
+<?php
+
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
